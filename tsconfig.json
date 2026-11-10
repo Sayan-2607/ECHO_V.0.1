@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": false,
+    "types": ["node"],
+    "outDir": "dist"
+  },
+  "include": ["server/**/*.ts", "tests/**/*.ts", "benchmark/**/*.ts", "vitest.config.ts", "playwright.config.ts"],
+  "exclude": ["tests/e2e/**"]
+}
